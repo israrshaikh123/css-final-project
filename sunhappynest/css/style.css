@@ -59,6 +59,7 @@ h6 {
   margin-right: auto;
   padding-left: var(--gw);
   padding-right: var(--gw);
+  overflow: hidden;
 }
 .row {
   display: flex;
@@ -184,6 +185,7 @@ nav ul li a {
   padding: 28px 14px;
   color: var(--white);
 }
+
 /* hero*/
 .hero {
   background-color: var(--primary-color);
@@ -216,18 +218,16 @@ nav ul li a {
   z-index: -1;
 }
 .hero-children-image {
-  height: 600px;
-  width: 600px;
-  position: absolute;
   border: solid 10px white;
   border-radius: 50%;
-  object-fit: cover;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   overflow: hidden;
-  top: 20%;
-  left: 9%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 100%;
+  margin-top: 110px;
 }
 
 .hero-children-image img {
@@ -236,17 +236,21 @@ nav ul li a {
   border-radius: 50%;
   object-fit: cover;
 }
+.col-4 {
+  position: relative;
+}
+
 .home-heading {
-  position: absolute;
-  top: 50%;
-  left: 55%;
+  margin-top: 350px;
+  margin-left: 100px;
+  width: 100%;
   transform: translateY(-50%);
+  width: 100%;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 100%;
 }
 
 .home-heading h1 {
@@ -320,7 +324,7 @@ nav ul li a {
   align-items: flex-start;
   background-color: var(--bg-color);
 }
-.who-are-we img{
+.who-are-we img {
   position: relative;
   width: 185px;
   height: 240px;
@@ -331,6 +335,7 @@ nav ul li a {
   display: block;
 }
 
+.who-are-we h6,
 .who-are-we p {
   font-size: 18px;
   font-weight: 600;
@@ -488,8 +493,8 @@ nav ul li a {
 
 .image-box {
   position: relative;
-  width: 410px;
-  height: 350px;
+  width: 100%;
+  height: auto;
   overflow: hidden;
   border-radius: 14px;
   margin-right: 20px;
@@ -503,6 +508,7 @@ nav ul li a {
 }
 .image-box:hover img {
   transform: scale(1.1);
+  overflow-x: hidden;
 }
 .hover-content {
   position: absolute;
@@ -519,6 +525,7 @@ nav ul li a {
   align-items: center;
   opacity: 0;
   transition: opacity 0.5s ease;
+  overflow: hidden;
 }
 .image-box:hover .hover-content {
   opacity: 1;
@@ -531,7 +538,6 @@ nav ul li a {
 }
 .happy-place {
   position: relative;
-  width: 1520px;
   height: 745px;
   width: 100%;
   background-size: cover;
@@ -604,7 +610,6 @@ nav ul li a {
 }
 .fifty-years p {
   position: absolute;
-
   display: flex;
   color: #fe464e;
   font-size: 24px;
@@ -661,8 +666,8 @@ nav ul li a {
 }
 .contact-us-today {
   position: relative;
-  width: 505px;
-  height: 125px;
+  width: auto;
+  height: auto;
   margin: 30px auto;
   background-color: #e5f0f9;
   border-radius: 14px;
@@ -797,6 +802,7 @@ nav ul li a {
 }
 .why-choose-us {
   position: relative;
+  height: auto;
   background-image: url(../css/images/bg/Background_rocket_planet_sapce_.png);
   background-color: #173c5b;
   background-repeat: no-repeat;
@@ -968,6 +974,7 @@ nav ul li a {
 }
 .our-teachers .btn-email {
   position: absolute;
+  width: 25%;
   top: 49%;
   left: 12%;
 }
@@ -1013,7 +1020,7 @@ nav ul li a {
 }
 .order-payment {
   position: relative;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 .order-payment h6 {
   position: absolute;
@@ -1127,7 +1134,7 @@ nav ul li a {
 
 .footer-top {
   margin-top: 600px;
-  background-color:#0f2a3e;
+  background-color: #0f2a3e;
   color: var(--white);
   padding: 50px 0;
 }
@@ -1191,7 +1198,7 @@ nav ul li a {
 }
 .footer-top .class {
   position: absolute;
-  left: 40%;  
+  left: 40%;
 }
 .footer-top .quick-links {
   position: absolute;
@@ -1243,9 +1250,18 @@ nav ul li a {
 }
 
 .footer-bottom {
-  background-color:#1c4c73;
+  background-color: #1c4c73;
   color: var(--white);
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
+}
+.footer-top {
+  position: relative;
+  height: auto;
+  background-image: url(../css/images/bg/Background_rocket_planet_sapce_.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
 }
