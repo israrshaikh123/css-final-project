@@ -1,0 +1,2164 @@
+/* Default (Mobile-first) base styles */
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+  .col-1 {
+    width: 8.3333%;
+  }
+  .col-2 {
+    width: 16.6666%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.3333%;
+  }
+  .col-5 {
+    width: 41.6666%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.3333%;
+  }
+  .col-8 {
+    width: 66.6666%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.3333%;
+  }
+  .col-11 {
+    width: 91.6666%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .topbar .col-6 ul li:last-child {
+    display: none;
+  }
+  .navbar .col-6 ul li:not(:last-child) {
+    display: none;
+  }
+  .navbar .col-6 ul li:last-child {
+    margin-top: 10px;
+  }
+  .hero .row {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .home-heading {
+    display: none;
+  }
+
+  .home-heading h1 {
+    position: unset;
+    font-size: 26px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 600px;
+  }
+  .home-heading p,
+  .home-heading span {
+    display: none;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 60px;
+  }
+  .hero .col-6 {
+    margin-bottom: 0px;
+  }
+  .who-are-we h6 {
+    font-size: 32px;
+    margin-left: 190px;
+  }
+  .who-are-we h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--description-font);
+    color: #1c4c73;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: left;
+  }
+  .who-are-we .box-text,
+  .who-are-we img {
+    display: none;
+  }
+  .video-container video {
+    display: none;
+  }
+  .video-container .working-hours {
+    overflow: hidden;
+    position: unset;
+    margin-left: 50%;
+    margin-top: 600px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 1100px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+    z-index: 1;
+  }
+  .our-values h6 {
+    font-weight: 700;
+    margin-left: 190px;
+  }
+  .our-values h2 {
+    font-size: 22px;
+    font-family: var(--description-font);
+    color: #1c4c73;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  .image-hover-box1,
+  .image-hover-box2,
+  .image-hover-box3 {
+    display: flex;
+    flex-direction: column;
+    position: unset;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    top: 150px;
+  }
+  .image-box {
+    position: unset;
+    width: 410px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-right: 20px;
+  }
+  .happy-place {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+  .happy-place h2 {
+    position: absolute;
+    top: 30%;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .happy-place p {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    font-size: 10px;
+  }
+  .happy-place .btn-email {
+    top: 55%;
+    left: 40%;
+    position: absolute;
+  }
+  .our-box-image {
+    margin-top: 50px;
+  }
+  .our-box-image .fifty-years {
+    width: 150px;
+    height: 150px;
+    top: -30px;
+    left: -12px;
+  }
+  .fifty-years h3 {
+    font-size: 50px;
+    font-weight: 500;
+    top: 15%;
+    left: 30%;
+  }
+  .fifty-years p {
+    font-size: 16px;
+    font-weight: 500;
+    top: 50%;
+    left: 30%;
+    margin-top: 5px;
+  }
+  .our-box-image .adorable-artists {
+    display: none;
+  }
+  .our-classes-content p {
+    display: none;
+  }
+  .contact-us-today {
+    width: 350px;
+    height: 125px;
+    margin-top: 170px;
+    margin-right: 150px;
+    margin-left: -200px;
+  }
+  .we-offer span {
+    display: none;
+  }
+  .we-offer h6 {
+    position: absolute;
+    font-size: 14px;
+    font-family: var(--description-font);
+    font-weight: 500;
+    color: #64d3e7;
+    top: 3%;
+    left: 35%;
+  }
+  .we-offer h2 {
+    font-size: 28px;
+    font-weight: 600;
+    top: 0;
+    left: 15%;
+  }
+  .why-choose-us span {
+    display: none;
+  }
+
+  .why-choose-us h6 {
+    font-size: 14px;
+    top: 10%;
+    left: 40%;
+  }
+
+  .why-choose-us h2 {
+    font-size: 25px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .why-choose-us .three .safe img {
+    top: 100px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+  }
+  .three .safe h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    left: 120px;
+  }
+  .three .safe p {
+    font-weight: 400;
+    margin-top: 120px;
+    margin-left: 110px;
+  }
+  .three .engaging img {
+    top: 290px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+  }
+  .three .engaging h2 {
+    margin-top: 190px;
+    left: 120px;
+  }
+  .three .engaging p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 140px;
+    margin-left: 110px;
+  }
+  .three .experienced img {
+    top: 470px;
+    left: 30;
+    width: 90px;
+    height: 90px;
+  }
+  .three .experienced h2 {
+    font-size: 25px;
+    margin-top: 400px;
+    left: 120px;
+  }
+  .three .experienced p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 110px;
+    margin-left: 110px;
+  }
+  .our-teachers p,
+  .students img,
+  .classroom img {
+    display: none;
+  }
+  .our-teachers h6 {
+    font-size: 22px;
+    font-weight: 600;
+    top: 5%;
+    left: 15%;
+  }
+  .our-teachers h2 {
+    font-size: 38px;
+    width: 100%;
+    font-weight: 600;
+    top: 18%;
+    left: 20%;
+  }
+  .our-teachers .btn-email {
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    left: 17%;
+  }
+  .teacher img {
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 10%;
+  }
+  .star img {
+    width: 102px;
+    height: 113px;
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+  .order-payment h6 {
+    font-size: 46px;
+    font-weight: 700;
+    top: 40%;
+    left: 30%;
+  }
+  .order-payment h2 {
+    display: none;
+  }
+  #span-1,
+  #span-2,
+  #span-3,
+  #span-4,
+  #span-5,
+  #span-6,
+  .order-payment i {
+    display: none;
+  }
+  .class,
+  .quick-links,
+  .contact {
+    display: none;
+  }
+  .circle-logo {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .teacher img {
+    display: none;
+  }
+  .our-teachers .btn-email {
+    width: 20%;
+  }
+}
+/* Small devices (≥576px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .col-sm-1 {
+    width: 8.3333%;
+  }
+  .col-sm-2 {
+    width: 16.6666%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333%;
+  }
+  .col-sm-5 {
+    width: 41.6666%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333%;
+  }
+  .col-sm-8 {
+    width: 66.6666%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333%;
+  }
+  .col-sm-11 {
+    width: 91.6666%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .topbar .col-6 ul li:last-child {
+    display: none;
+  }
+  .navbar .col-6 ul li:not(:last-child) {
+    display: none;
+  }
+  .navbar .col-6 ul li:last-child {
+    margin-top: 10px;
+  }
+  .hero .row {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .home-heading {
+    display: none;
+  }
+
+  .home-heading h1 {
+    position: unset;
+    font-size: 26px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 600px;
+  }
+  .home-heading p,
+  .home-heading span {
+    display: none;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 60px;
+  }
+  .hero .col-6 {
+    margin-bottom: 0px;
+  }
+  .who-are-we h6 {
+    font-size: 32px;
+    margin-left: 190px;
+  }
+  .who-are-we h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--description-font);
+    color: #1c4c73;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: left;
+  }
+  .who-are-we .box-text,
+  .who-are-we img {
+    display: none;
+  }
+  .video-container video {
+    display: none;
+  }
+  .video-container .working-hours {
+    overflow: hidden;
+    position: unset;
+    margin-left: 50%;
+    margin-top: 600px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 1100px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+    z-index: 1;
+  }
+  .our-values h6 {
+    font-weight: 700;
+    margin-left: 190px;
+  }
+  .our-values h2 {
+    font-size: 22px;
+    font-family: var(--description-font);
+    color: #1c4c73;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  .image-hover-box1,
+  .image-hover-box2,
+  .image-hover-box3 {
+    display: flex;
+    flex-direction: column;
+    position: unset;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    top: 150px;
+  }
+  .image-box {
+    position: unset;
+    width: 410px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-right: 20px;
+  }
+  .happy-place {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+  .happy-place h2 {
+    position: absolute;
+    top: 30%;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .happy-place p {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    font-size: 10px;
+  }
+  .happy-place .btn-email {
+    top: 55%;
+    left: 40%;
+    position: absolute;
+  }
+  .our-box-image {
+    margin-top: 50px;
+  }
+  .our-box-image .fifty-years {
+    width: 150px;
+    height: 150px;
+    top: -30px;
+    left: -12px;
+  }
+  .fifty-years h3 {
+    font-size: 50px;
+    font-weight: 500;
+    top: 15%;
+    left: 30%;
+  }
+  .fifty-years p {
+    font-size: 16px;
+    font-weight: 500;
+    top: 50%;
+    left: 30%;
+    margin-top: 5px;
+  }
+  .our-box-image .adorable-artists {
+    display: none;
+  }
+  .our-classes-content p {
+    display: none;
+  }
+  .contact-us-today {
+    width: 350px;
+    height: 125px;
+    margin-top: 170px;
+    margin-right: 150px;
+    margin-left: -200px;
+  }
+  .we-offer span {
+    display: none;
+  }
+  .we-offer h6 {
+    position: absolute;
+    font-size: 14px;
+    font-family: var(--description-font);
+    font-weight: 500;
+    color: #64d3e7;
+    top: 3%;
+    left: 35%;
+  }
+  .we-offer h2 {
+    font-size: 28px;
+    font-weight: 600;
+    top: 0;
+    left: 15%;
+  }
+  .why-choose-us span {
+    display: none;
+  }
+
+  .why-choose-us h6 {
+    font-size: 14px;
+    top: 10%;
+    left: 40%;
+  }
+
+  .why-choose-us h2 {
+    font-size: 25px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .why-choose-us .three .safe img {
+    top: 100px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+  }
+  .three .safe h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    left: 120px;
+  }
+  .three .safe p {
+    font-weight: 400;
+    margin-top: 120px;
+    margin-left: 110px;
+  }
+  .three .engaging img {
+    top: 290px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+  }
+  .three .engaging h2 {
+    margin-top: 190px;
+    left: 120px;
+  }
+  .three .engaging p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 140px;
+    margin-left: 110px;
+  }
+  .three .experienced img {
+    top: 470px;
+    left: 30;
+    width: 90px;
+    height: 90px;
+  }
+  .three .experienced h2 {
+    font-size: 25px;
+    margin-top: 400px;
+    left: 120px;
+  }
+  .three .experienced p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 110px;
+    margin-left: 110px;
+  }
+  .our-teachers p,
+  .students img,
+  .classroom img {
+    display: none;
+  }
+  .our-teachers h6 {
+    font-size: 22px;
+    font-weight: 600;
+    top: 5%;
+    left: 15%;
+  }
+  .our-teachers h2 {
+    font-size: 38px;
+    width: 100%;
+    font-weight: 600;
+    top: 18%;
+    left: 20%;
+  }
+  .our-teachers .btn-email {
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    left: 17%;
+  }
+  .teacher img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 10%;
+  }
+  .star img {
+    width: 102px;
+    height: 113px;
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+  .order-payment h6 {
+    font-size: 46px;
+    font-weight: 700;
+    top: 40%;
+    left: 30%;
+  }
+  .order-payment h2 {
+    display: none;
+  }
+  #span-1,
+  #span-2,
+  #span-3,
+  #span-4,
+  #span-5,
+  #span-6,
+  .order-payment i {
+    display: none;
+  }
+  .class,
+  .quick-links,
+  .contact {
+    display: none;
+  }
+  .circle-logo {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .teacher img {
+    display: none;
+  }
+  .our-teachers .btn-email {
+    width: 20%;
+  }
+}
+/* Medium devices (≥768px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .col-md-1 {
+    width: 8.3333%;
+  }
+  .col-md-2 {
+    width: 16.6666%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333%;
+  }
+  .col-md-5 {
+    width: 41.6666%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333%;
+  }
+  .col-md-8 {
+    width: 66.6666%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333%;
+  }
+  .col-md-11 {
+    width: 91.6666%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .who-are-we h6 {
+    font-size: 56px;
+    margin-left: 210px;
+  }
+  .video-container .working-hours {
+    overflow: hidden;
+    position: unset;
+    /* margin-left: 50%; */
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    z-index: 1;
+  }
+  .video-container .working-hours h3 {
+    font-size: 52px;
+    margin-top: 100px;
+  }
+  .video-container .working-hours p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #545454;
+  }
+  .video-container.working-hours p:last-child {
+    margin-bottom: 20px;
+  }
+  .image-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-right: 20px;
+  }
+  .our-values h6 {
+    font-size: 36px;
+    margin-left: 35%;
+  }
+  .our-values h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .our-box-image {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+  .our-classes-content,
+  .contact-us-today p {
+    display: none;
+  }
+  .contact-us-today span {
+    justify-content: center;
+    font-size: 25px;
+  }
+  .contact-us-today {
+    width: 350px;
+    height: 125px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 200px;
+  }
+  .our-classes {
+    margin-bottom: 30px;
+  }
+  .we-offer h6 {
+    position: absolute;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    top: 2%;
+    left: 25%;
+  }
+  .we-offer h2 {
+    justify-self: center;
+    font-size: 39px;
+    font-weight: 500;
+    margin-top: 130px;
+  }
+  .hover-box-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 230px auto 50px auto;
+  }
+  .why-choose-us h6 {
+    position: absolute;
+    font-size: 38px;
+    font-weight: 700;
+    top: 5%;
+    left: 35%;
+  }
+  .why-choose-us h2 {
+    position: absolute;
+    font-size: 34px;
+    font-family: var(--description-font);
+    font-weight: 700;
+    color: #ffffff;
+    top: 15%;
+    left: 22%;
+  }
+  .three .experienced p {
+    font-size: 16px;
+    font-family: var(--description-font);
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 170px;
+    margin-left: 110px;
+  }
+  .three .experienced img {
+    top: 500px;
+    left: 30;
+    width: 90px;
+    height: 90px;
+  }
+  .our-teachers h6 {
+    font-size: 32px;
+    left: 20%;
+  }
+  .our-teachers h2 {
+    font-size: 32px;
+    top: 22%;
+    left: 20%;
+  }
+  .our-teachers .btn-email {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+  }
+  .order-payment h6 {
+    font-size: 42px;
+    top: 30%;
+    left: 30%;
+    margin-bottom: 0;
+  }
+  #span-7,
+  #span-8,
+  #span-9,
+  #span-10,
+  #span-11,
+  #span-12 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .order-payment i {
+    display: inline-block;
+  }
+
+  #span-7 {
+    margin-top: 40px;
+    left: 0%;
+  }
+  #span-8 {
+    margin-top: 120px;
+    left: 0%;
+  }
+  #span-9 {
+    margin-top: 200px;
+    left: 0%;
+  }
+  #span-10 {
+    margin-top: 280px;
+    left: 0%;
+  }
+  #span-11 {
+    margin-top: 360px;
+    left: 0%;
+  }
+  #span-12 {
+    margin-top: 440px;
+    left: 0%;
+  }
+  .footer-top {
+    margin-top: 450px;
+  }
+  .circle-logo {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    /* top: 50%; */
+    left: auto;
+  }
+  .teacher img {
+    display: none;
+  }
+  .our-teachers .btn-email {
+    width: 20%;
+  }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .col-lg-1 {
+    width: 8.3333%;
+  }
+  .col-lg-2 {
+    width: 16.6666%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333%;
+  }
+  .col-lg-5 {
+    width: 41.6666%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333%;
+  }
+  .col-lg-8 {
+    width: 66.6666%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333%;
+  }
+  .col-lg-11 {
+    width: 91.6666%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .navbar .col-6 ul li:not(:last-child) {
+    display: block;
+  }
+  .navbar .col-6 ul li:last-child {
+    margin-top: 20px;
+  }
+  .hero .row {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .home-heading {
+    display: block;
+  }
+  .home-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .home-heading h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    /* top: 1%; */
+    right: 5%;
+  }
+  .form input[name="full-name"],
+  .form input[name="e-mail"],
+  .form-row .btn-email {
+    display: none;
+  }
+  .home-heading p {
+    position: absolute;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    top: 500%;
+    right: 5%;
+  }
+  .who-are-we h6 {
+    font-size: 56px;
+    margin-left: 350px;
+    text-align: center;
+  }
+  .video-container .working-hours {
+    overflow: hidden;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 5px;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* left: 50%; */
+    margin-bottom: 100px;
+  }
+
+  .video-container .working-hours h3 {
+    font-size: 48px;
+    margin-top: 0;
+  }
+  .video-container .working-hours p {
+    font-size: 22px;
+  }
+  .who-are-we .box-text {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--description-font);
+    color: #545454;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 390px;
+    text-align: left;
+    background-color: #e5f0f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .our-values h6 {
+    font-size: 42px;
+    margin-left: 350px;
+    text-align: center;
+  }
+  .our-values h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 170px;
+  }
+  .image-hover-box3 {
+    justify-content: center;
+    margin-right: 10px;
+  }
+  .happy-place h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .happy-place p {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .happy-place .btn-email {
+    top: 60%;
+    left: 45%;
+    position: absolute;
+  }
+  .our-box-image {
+    margin-top: 40px;
+    height: auto;
+  }
+  .our-box-image .adorable-artists {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 150px;
+    border-radius: 14px;
+    top: 50%;
+    right: -16%;
+  }
+  .contact-us-today {
+    width: 505px;
+    margin: 130px auto;
+  }
+  .we-offer h6 {
+    font-size: 42px;
+    margin-left: 70px;
+  }
+  .we-offer h2 {
+    position: absolute;
+    font-size: 24px;
+    font-family: var(--description-font);
+    font-weight: 600;
+    color: #1c4c73;
+    margin-top: 120px;
+    left: 38%;
+  }
+  .hover-box-container {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 0px;
+    max-width: 1200px;
+    margin: 90px auto 0px auto;
+  }
+  .hover-box {
+    margin-bottom: 10px;
+  }
+  .hover-box-container h2,
+  .hover-box-container .btn-email {
+    display: none;
+  }
+  .why-choose-us h6 {
+    font-size: 36px;
+    top: 2%;
+    left: 40%;
+  }
+  .why-choose-us h2 {
+    font-size: 29px;
+    top: 8%;
+    left: 32%;
+  }
+  .why-choose-us span {
+    display: block;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 175px;
+  }
+  .why-choose-us .three .safe img {
+    top: 22%;
+    left: 2%;
+    width: 95px;
+    height: 95px;
+  }
+  .three .safe h2 {
+    font-size: 32px;
+    margin-top: 100px;
+    left: 150px;
+  }
+  .three .safe p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 190px;
+    margin-left: 130px;
+  }
+  .three .engaging img {
+    top: 50%;
+    left: 2%;
+    width: 95px;
+    height: 95px;
+  }
+  .three .engaging h2 {
+    font-size: 32px;
+    margin-top: 290px;
+    left: 150px;
+  }
+  .three .engaging p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 130px;
+    margin-left: 130px;
+  }
+  .three .experienced img {
+    top: 80%;
+    left: 3%;
+    width: 95px;
+    height: 95px;
+  }
+  .three .experienced h2 {
+    font-size: 32px;
+    margin-top: 510px;
+    left: 150px;
+  }
+  .three .experienced p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-left: 130px;
+  }
+  .our-teachers h6 {
+    font-size: 42px;
+    top: 0;
+    left: 15%;
+  }
+  .our-teachers h2 {
+    font-size: 36px;
+    font-weight: 500;
+    top: 10%;
+    left: 15%;
+  }
+  .our-teachers p {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    top: 35%;
+    left: 15%;
+  }
+  .our-teachers .btn-email {
+    position: absolute;
+    top: 90%;
+    left: 13%;
+  }
+  .order-payment h6 {
+    font-size: 38px;
+    color: #64d3e7;
+    top: -10%;
+    left: 38%;
+  }
+  .order-payment h2 {
+    display: block;
+    font-size: 39px;
+    top: 20%;
+    left: 28%;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+  #span-1,
+  #span-2,
+  #span-3,
+  #span-4,
+  #span-5,
+  #span-6 {
+    display: block;
+  }
+  .order-payment i {
+    display: none;
+  }
+  .order-payment .col-6 span {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #64d3e7;
+  }
+  #span-1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 22px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+  #span-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    margin-top: 230px;
+  }
+  #span-3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 24px;
+    margin-top: 290px;
+  }
+  #span-4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 24px;
+    margin-top: 350px;
+  }
+  #span-5 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 24px;
+    margin-top: 410px;
+  }
+  #span-6 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 24px;
+    margin-top: 470px;
+  }
+  #span-7 {
+    margin-top: 67px;
+    left: 40%;
+  }
+  #span-8 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 24px;
+    margin-top: 230px;
+  }
+  #span-9 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 24px;
+    margin-top: 290px;
+  }
+  #span-10 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 24px;
+    margin-top: 350px;
+  }
+  #span-11 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 24px;
+    margin-top: 410px;
+  }
+  #span-12 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 24px;
+    margin-top: 470px;
+  }
+  .circle-logo {
+    justify-content: center;
+    left: 15%;
+  }
+  .contact {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: -350px;
+  }
+  .contact h4 {
+    font-size: 32px;
+  }
+  .our-teachers .btn-email {
+    width: 20%;
+  }
+}
+
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+  .col-xl-1 {
+    width: 8.3333%;
+  }
+  .col-xl-2 {
+    width: 16.6666%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.3333%;
+  }
+  .col-xl-5 {
+    width: 41.6666%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.3333%;
+  }
+  .col-xl-8 {
+    width: 66.6666%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.3333%;
+  }
+  .col-xl-11 {
+    width: 91.6666%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+  .topbar .col-6 ul li:last-child {
+    display: block;
+  }
+  .home-heading h1 {
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 10%;
+  }
+  .home-heading p {
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    left: 5%;
+  }
+  .form-row .btn-email {
+    display: block;
+    position: absolute;
+    width: 50%;
+    margin-top: 80px;
+    left: 25%;
+  }
+
+  .form span {
+    display: block;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: -130px;
+    left: 50px;
+  }
+  .who-are-we h6 {
+    font-size: 56px;
+    margin-left: 400px;
+    justify-content: center;
+    text-align: center;
+  }
+  .who-are-we .box-text {
+    font-size: 20px;
+  }
+  .video-container .working-hours {
+    overflow: hidden;
+    position: absolute;
+    /* margin-left: 0; */
+    margin-top: 5px;
+    top: 54%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .video-container .working-hours h3 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .video-container .working-hours p {
+    font-size: 14px;
+  }
+  .video-container {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 720px;
+  }
+  .video-container video {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    height: 720px;
+    border-radius: 14px;
+    margin-top: 32px;
+    border: none;
+    z-index: -1;
+  }
+  .our-values h6 {
+    font-size: 52px;
+    margin-left: 400px;
+    text-align: center;
+  }
+  .our-values h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 210px;
+  }
+  .our-classes-content {
+    display: block;
+  }
+  .our-classes-content h6 {
+    font-size: 22px;
+  }
+
+  .our-classes-content p {
+    display: block;
+    margin-left: 70px;
+    font-size: 16px;
+  }
+  .contact-us-today {
+    display: none;
+  }
+  .we-offer h6 {
+    font-size: 24px;
+    top: -7%;
+    left: 35%;
+    text-align: center;
+  }
+  .we-offer h2 {
+    display: block;
+    margin-top: 0px;
+    font-size: 32px;
+    top: 0%;
+    left: 33%;
+    text-align: center;
+  }
+  .why-choose-us h6 {
+    font-size: 32px;
+    top: 2%;
+    left: 45%;
+  }
+  .why-choose-us h2 {
+    font-size: 29px;
+    top: 8%;
+    left: 37%;
+  }
+  .why-choose-us span {
+    display: block;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .why-choose-us .three .safe img {
+    top: 27%;
+    left: 2%;
+    width: 65px;
+    height: 65px;
+  }
+  .three .safe h2 {
+    font-size: 22px;
+    margin-top: 140px;
+    left: 150px;
+  }
+  .three .safe p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 270px;
+    margin-left: 130px;
+  }
+  .three .engaging img {
+    top: 50%;
+    left: 2%;
+    width: 65px;
+    height: 65px;
+  }
+  .three .engaging h2 {
+    font-size: 22px;
+    margin-top: 330px;
+    left: 150px;
+  }
+  .three .engaging p {
+    font-size: 16px;
+    margin-top: 100px;
+  }
+  .three .experienced img {
+    top: 78%;
+    left: 3%;
+    width: 65px;
+    height: 65px;
+  }
+  .three .experienced h2 {
+    font-size: 22px;
+    margin-top: 570px;
+  }
+  .three .experienced p {
+    font-size: 16px;
+  }
+  .why-choose-us .video-image img {
+    width: 100%;
+    height: 900px;
+  }
+  .our-teachers h6 {
+    position: absolute;
+    font-size: 22px;
+    top: 10%;
+    left: 10%;
+  }
+  .our-teachers h2 {
+    font-size: 39px;
+    font-weight: 700;
+    top: 15%;
+    left: 10%;
+  }
+  .our-teachers p {
+    font-size: 16px;
+    top: 40%;
+    left: 10%;
+  }
+  .our-teachers .btn-email {
+    top: 75%;
+    left: 12%;
+  }
+  .teacher img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 5%;
+    left: 35%;
+  }
+  .students img {
+    display: block;
+    width: 200px;
+    height: 155px;
+    transform: rotate(10deg);
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .classroom img {
+    display: block;
+    width: 200px;
+    height: 155px;
+    margin-top: 100px;
+    transform: rotate(-10deg);
+    margin-left: 50px;
+  }
+  .order-payment h6 {
+    font-size: 22px;
+    color: #64d3e7;
+    top: -10%;
+    left: 40%;
+  }
+  .order-payment h2 {
+    display: block;
+    font-size: 36px;
+  }
+  .order-payment i {
+    display: inline-block;
+  }
+  #span-1 {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    font-size: 22px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+  #span-2 {
+    position: absolute;
+    top: 0;
+    left: 7%;
+    font-size: 24px;
+    margin-top: 230px;
+  }
+  #span-3 {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    font-size: 24px;
+    margin-top: 290px;
+  }
+  #span-4 {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    font-size: 24px;
+    margin-top: 350px;
+  }
+  #span-5 {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    font-size: 24px;
+    margin-top: 410px;
+  }
+  #span-6 {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    font-size: 24px;
+    margin-top: 470px;
+  }
+  #span-7 {
+    margin-top: 67px;
+    margin-left: 0px;
+    left: 0%;
+    justify-self: center;
+    text-align: end;
+  }
+  #span-8 {
+    position: absolute;
+    margin-left: 0px;
+    left: 0%;
+    justify-self: center;
+    text-align: end;
+    margin-top: 230px;
+  }
+  #span-9 {
+    position: absolute;
+    margin-left: 0px;
+    left: 0%;
+    justify-self: center;
+    text-align: end;
+    margin-top: 290px;
+  }
+  #span-10 {
+    position: absolute;
+    margin-left: 0px;
+    left: 0%;
+    justify-self: center;
+    text-align: end;
+    margin-top: 350px;
+  }
+  #span-11 {
+    position: absolute;
+    margin-left: 0px;
+    left: 0%;
+    justify-self: center;
+    text-align: end;
+    margin-top: 410px;
+  }
+  #span-12 {
+    position: absolute;
+    margin-left: 0px;
+    left: 0%;
+    justify-self: center;
+    text-align: end;
+    margin-top: 470px;
+  }
+  .quick-links {
+    display: block;
+    justify-content: start;
+    text-align: center;
+    gap: 40px;
+    margin-top: 100px;
+  }
+  .circle-logo {
+    justify-content: center;
+    left: 15%;
+  }
+  .contact {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 100px;
+  }
+  .contact h4,
+  .quick-links h4 {
+    font-size: 32px;
+  }
+  .our-teachers .btn-email {
+    width: 20%;
+  }
+  .contact {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: -400px;
+  }
+}
+/* Extra extra large devices (≥1400px) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  .col-xxl-1 {
+    width: 8.3333%;
+  }
+  .col-xxl-2 {
+    width: 16.6666%;
+  }
+  .col-xxl-3 {
+    width: 25%;
+  }
+  .col-xxl-4 {
+    width: 33.3333%;
+  }
+  .col-xxl-5 {
+    width: 41.6666%;
+  }
+  .col-xxl-6 {
+    width: 50%;
+  }
+  .col-xxl-7 {
+    width: 58.3333%;
+  }
+  .col-xxl-8 {
+    width: 66.6666%;
+  }
+  .col-xxl-9 {
+    width: 75%;
+  }
+  .col-xxl-10 {
+    width: 83.3333%;
+  }
+  .col-xxl-11 {
+    width: 91.6666%;
+  }
+  .col-xxl-12 {
+    width: 100%;
+  }
+  .form-row {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form .form-row input {
+    display: inline-block;
+  }
+  .form .form-row input[name="full-name"] {
+    position: absolute;
+    margin-top: 80px;
+    margin-right: 200px;
+    width: 30%;
+  }
+  .form .form-row input[name="e-mail"] {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 150px;
+    width: 30%;
+  }
+  .form-row .btn-email {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 300px;
+  }
+
+  .who-are-we h6 {
+    font-size: 48px;
+    margin-left: 550px;
+    font-weight: 500;
+  }
+  .our-values h6 {
+    font-size: 48px;
+    margin-left: 550px;
+    font-weight: 600;
+  }
+  .our-values h2 {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+    margin-left: 370px;
+  }
+  .contact-us-today,
+  .contact-us-today p {
+    display: block;
+  }
+  .contact-us-today span {
+    position: absolute;
+    top: 20%;
+  }
+  .contact-us-today {
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+  }
+  .contact-us-today p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+  .we-offer h6 {
+    top: -7%;
+    left: 0%;
+  }
+  .we-offer h2 {
+    top: 0%;
+    left: 5%;
+  }
+  .we-offer span {
+    display: block;
+    top: -7%;
+    right: 5%;
+  }
+  .we-offer .btn-email {
+    display: block;
+    position: absolute;
+    top: 2%;
+    right: 38%;
+  }
+  .why-choose-us h6 {
+    font-size: 36px;
+    top: 2%;
+    left: 45%;
+  }
+  .why-choose-us h2 {
+    font-size: 32px;
+    top: 8%;
+    left: 37%;
+  }
+  .why-choose-us span {
+    display: block;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .why-choose-us .three .safe img {
+    top: 30%;
+    left: 2%;
+    width: 95px;
+    height: 95px;
+  }
+  .three .safe h2 {
+    font-size: 32px;
+    margin-top: 170px;
+    left: 150px;
+  }
+  .three .safe p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 270px;
+    margin-left: 130px;
+  }
+  .three .engaging img {
+    top: 55%;
+    left: 2%;
+    width: 95px;
+    height: 95px;
+  }
+  .three .engaging h2 {
+    font-size: 32px;
+    margin-top: 350px;
+    left: 150px;
+  }
+  .three .engaging p {
+    font-size: 16px;
+    margin-top: 150px;
+  }
+  .three .experienced img {
+    top: 83%;
+    left: 3%;
+    width: 95px;
+    height: 95px;
+  }
+  .three .experienced h2 {
+    font-size: 32px;
+    margin-top: 590px;
+  }
+  .three .experienced p {
+    font-size: 16px;
+  }
+  .our-teachers h6 {
+    position: absolute;
+    font-size: 32px;
+    top: 5%;
+    left: 10%;
+  }
+  .our-teachers h2 {
+    font-size: 39px;
+    font-weight: 700;
+    top: 15%;
+    left: 10%;
+  }
+  .our-teachers p {
+    font-size: 16px;
+    top: 40%;
+    left: 10%;
+  }
+  .our-teachers .btn-email {
+    top: 75%;
+    left: 12%;
+  }
+  .teacher img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 5%;
+    left: 35%;
+  }
+  .students img {
+    display: block;
+    width: 400px;
+    height: 255px;
+    transform: rotate(10deg);
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .classroom img {
+    display: block;
+    width: 400px;
+    height: 255px;
+    margin-top: 90px;
+    transform: rotate(-7deg);
+    margin-left: 50px;
+  }
+  .order-payment h6 {
+    font-size: 32px;
+    color: #64d3e7;
+    top: -10%;
+    left: 45%;
+  }
+  .order-payment h2 {
+    display: block;
+    font-size: 36px;
+    left: 38%;
+  }
+  .class {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .quick-links {
+    margin-left: 20px;
+  }
+  .contact h4,
+  .quick-links h4,
+  .class h4 {
+    font-size: 32px;
+  }
+  .our-teachers .btn-email {
+    width: 20%;
+  }
+  .contact {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7%;
+  }
+}
+
+/* -------------------------- */
+/* MAX-WIDTH MEDIA QUERIES   */
+/* -------------------------- */
+
+/* Limit container on very large screens */
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+/* Adjust text size and padding on medium desktops */
+@media (max-width: 1366px) {
+  .home-heading h1 {
+    font-size: 52px;
+    right: 5%;
+  }
+
+  .video-container .working-hours {
+    width: 70%;
+    height: auto;
+    margin-top: 300px;
+  }
+
+  .hero .row {
+    padding-bottom: 20px;
+  }
+}
+
+/* Stack grid content on smaller laptops */
+@media (max-width: 1024px) {
+  .grid,
+  .image-hover-box1,
+  .image-hover-box2,
+  .image-hover-box3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box {
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  .home-heading h1 {
+    font-size: 36px;
+    text-align: center;
+    right: 0;
+  }
+
+  .home-heading {
+    align-items: center;
+  }
+}
